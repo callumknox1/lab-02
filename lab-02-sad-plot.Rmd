@@ -1,6 +1,12 @@
 ---
 title: "Lab 02 - Take a sad plot and make it better"
+<<<<<<< HEAD
 author: "Group Members: user1, user2, Bill Xu and user4"
+=======
+
+author: "Group Members: Callum Knox, Qian Zheng, user3 and user4"
+
+>>>>>>> a177e60164ab0828569b84a4a2a630c041c06d90
 date: "`r Sys.Date()`"
 output: html_document
 ---
