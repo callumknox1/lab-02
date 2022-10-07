@@ -383,12 +383,12 @@ to GitHub.</p>
 <div id="exercise-2" class="section level3">
 <h3>Exercise 2</h3>
 <pre class="r"><code># uncomment and edit the code below
-#staff_long &lt;- ___ %&gt;%
-#  ___(
-#    cols = ___, 
-#    names_to = &quot;___&quot;,
-#    values_to = &quot;___&quot;
-#    )</code></pre>
+staff_long &lt;- staff %&gt;%
+  pivot_longer(
+    cols = -faculty_type, 
+    names_to = &quot;years&quot;,
+    values_to = &quot;number_of_people&quot;
+    )</code></pre>
 </div>
 <div id="exercise-3" class="section level3">
 <h3>Exercise 3</h3>
