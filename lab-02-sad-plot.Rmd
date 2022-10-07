@@ -54,7 +54,7 @@ staff_long <- staff %>%
 
 ```{r staff-long-inspect}
 staff_long %>%
-  ggplot(aes(x = years, y= number_of_people, color = faculty_type ) )
+  ggplot(aes(x = years, y = number_of_people, color = faculty_type , group = faculty_type ) ) +
   geom_line()
 ```
 
